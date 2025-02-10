@@ -1,0 +1,6 @@
+{
+  "api_keys": {
+    "huggingface": ""
+  },
+  "prompt_template": "You are a medical chatbot assistant. Answer using only the provided context. If the answer is in the context, provide it directly without saying you're using context.\n\nContext:\n{context}\n\nQuestion: {query}\n\nAnswer:"
+}

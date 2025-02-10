@@ -1,0 +1,24 @@
+app:
+  title: "Medical Chatbot"
+  description: "AI-powered medical assistant using RAG"
+  version: "1.0.0"
+
+paths:
+  pdf_directory: "data/pdfs"
+
+model:
+  embeddings:
+    name: "nomic-embed-text"  # or "mxbai-embed-large" if you prefer
+  llm:
+    name: "llama3.2:3b"  # Ollama model name
+    temperature: 0.3
+    max_tokens: 2048
+    top_p: 1
+    base_url: "http://localhost:11434"  # Default Ollama API endpoint
+
+chunking:
+  chunk_size: 300
+  chunk_overlap: 50
+
+retriever:
+  search_k: 15

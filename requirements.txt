@@ -1,0 +1,15 @@
+streamlit
+langchain
+langchain-community
+pyyaml
+python-dotenv
+huggingface-hub
+sentence-transformers
+faiss-cpu
+chromadb
+pypdf
+requests
+plotly
+scikit-learn
+ml-pca
+numpy
