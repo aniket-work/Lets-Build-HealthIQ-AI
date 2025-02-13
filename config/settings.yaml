@@ -1,6 +1,6 @@
 app:
-  title: "Medical Chatbot"
-  description: "AI-powered medical assistant using RAG"
+  title: "HealthIQ AI, Power of Vertical AI Agent"
+  description: "Vertical AI Agent-powered medical inquery"
   version: "1.0.0"
 
 paths:

@@ -13,3 +13,4 @@ plotly
 scikit-learn
 ml-pca
 numpy
+reportlab
