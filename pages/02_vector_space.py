@@ -11,8 +11,21 @@ from src.session_manager import initialize_components, get_embeddings_data
 
 
 def create_vector_plot(embeddings_3d, hover_texts, colors, sizes, search_3d=None):
-    """Create 3D vector space plot."""
-    data = [
+    """
+    Create a 3D vector space plot using Plotly.
+
+    Args:
+        embeddings_3d (np.ndarray): 3D PCA-transformed embeddings of documents.
+        hover_texts (list): List of hover text for each document.
+        colors (list): List of colors for each document marker.
+        sizes (list): List of sizes for each document marker.
+        search_3d (np.ndarray, optional): 3D PCA-transformed embedding of the search query.
+
+    Returns:
+        go.Figure: Plotly figure object for the 3D scatter plot.
+    """
+    # Create the base scatter plot for documents
+    scatter_data = [
         go.Scatter3d(
             x=embeddings_3d[:, 0],
             y=embeddings_3d[:, 1],
@@ -29,8 +42,9 @@ def create_vector_plot(embeddings_3d, hover_texts, colors, sizes, search_3d=None
         )
     ]
 
+    # Add search query marker if provided
     if search_3d is not None:
-        data.append(
+        scatter_data.append(
             go.Scatter3d(
                 x=search_3d[:, 0],
                 y=search_3d[:, 1],
@@ -46,8 +60,10 @@ def create_vector_plot(embeddings_3d, hover_texts, colors, sizes, search_3d=None
             )
         )
 
-    fig = go.Figure(data=data)
+    # Create the figure
+    fig = go.Figure(data=scatter_data)
 
+    # Update layout for better visualization
     fig.update_layout(
         template='plotly_dark',
         paper_bgcolor='rgba(0,0,0,0)',

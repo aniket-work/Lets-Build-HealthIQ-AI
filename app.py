@@ -34,11 +34,38 @@ class MedicalChatbotUI:
             st.error(f"Error initializing components: {str(e)}")
             raise
 
+    # Add to MedicalChatbotUI.render()
     def render(self):
-        """Render the Streamlit UI."""
+        # Add animated header
+        st.markdown("""
+        <style>
+            @keyframes fadeIn {
+                0% { opacity: 0; }
+                100% { opacity: 1; }
+            }
+            .fade-in { animation: fadeIn 0.5s; }
+        </style>
+        """, unsafe_allow_html=True)
+
+        # Custom avatars
+        with st.chat_message("assistant", avatar="🏥"):
+            st.markdown(f"**{self.settings['app']['title']}**")
+            st.caption("AI Medical Assistant | Powered by Clinical Guidelines")
+
+        # Example questions carousel
+        with st.sidebar.expander("💡 Example Questions"):
+            examples = [
+                "Explain Type 2 diabetes management",
+                "Latest hypertension treatment guidelines",
+                "Side effects of metformin",
+                "Pediatric asthma prevention strategies"
+            ]
+            for ex in examples:
+                if st.button(ex, use_container_width=True):
+                    st.session_state.ex_query = ex
+
         st.title(self.settings["app"]["title"])
         st.write(self.settings["app"]["description"])
-
 
         # Initialize components if not in session state
         if "chain_manager" not in st.session_state or st.session_state.chain_manager is None:

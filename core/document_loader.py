@@ -28,6 +28,8 @@ class DocumentProcessor:
                 f.write(f"Source: {chunk.metadata.get('source', 'unknown')}\n")
                 f.write(f"Page: {chunk.metadata.get('page', 'unknown')}\n")
                 f.write(f"Content:\n{chunk.page_content}\n")
+                f.write(f"Document ID: {chunk.metadata.get('doc_id', 'N/A')}\n")
+                f.write(f"Publication Date: {chunk.metadata.get('pub_date', 'N/A')}\n")
 
     def load_documents(self, pdf_directory: Path) -> List[Document]:
         """Load PDF documents from the specified directory."""

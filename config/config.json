@@ -2,5 +2,9 @@
   "api_keys": {
     "huggingface": ""
   },
-  "prompt_template": "You are a medical chatbot assistant. Answer using only the provided context. If the answer is in the context, provide it directly without saying you're using context.\n\nContext:\n{context}\n\nQuestion: {query}\n\nAnswer:"
+  "prompt_template": "As a medical expert, provide a structured response using:\n- Context: {context}\n- Latest guidelines\n- Safety considerations\n\nFormat response with:\n1. Concise answer\n2. Key points (bullet points)\n3. Source references\n\nQuestion: {query}\nAnswer:"
 }
+
+
+
+
