@@ -30,6 +30,30 @@ def create_medical_pdf(filename):
             "Regular exercise and a balanced diet can help prevent hypertension and diabetes.",
             "Avoiding allergens and irritants can help manage asthma.",
             "Regular check-ups and screenings are essential for early detection and prevention of diseases."
+        ]),
+        ("Type 2 Diabetes Management", [
+            "Type 2 diabetes management involves a combination of lifestyle changes, medication, and regular monitoring.",
+            "Lifestyle changes include a healthy diet, regular physical activity, and maintaining a healthy weight.",
+            "Medications may include oral drugs like metformin or insulin injections.",
+            "Regular monitoring of blood sugar levels is crucial for effective management."
+        ]),
+        ("Latest Hypertension Treatment Guidelines", [
+            "The latest hypertension treatment guidelines emphasize lifestyle modifications and medication.",
+            "Lifestyle modifications include a low-sodium diet, regular exercise, and weight management.",
+            "Medications may include diuretics, ACE inhibitors, and beta-blockers.",
+            "Regular monitoring of blood pressure is essential for adjusting treatment plans."
+        ]),
+        ("Side Effects of Metformin", [
+            "Metformin is a commonly used medication for type 2 diabetes.",
+            "Common side effects include nausea, vomiting, and diarrhea.",
+            "Serious side effects are rare but can include lactic acidosis.",
+            "It is important to consult a healthcare provider if side effects persist or worsen."
+        ]),
+        ("Pediatric Asthma Prevention Strategies", [
+            "Pediatric asthma prevention strategies focus on avoiding triggers and managing symptoms.",
+            "Common triggers include allergens, irritants, and respiratory infections.",
+            "Preventive measures include regular use of controller medications, avoiding allergens, and maintaining a healthy environment.",
+            "Education and awareness about asthma management are crucial for parents and caregivers."
         ])
     ]
 
