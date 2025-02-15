@@ -125,7 +125,7 @@ class MedicalChatbotUI:
         st.markdown("""
         <div style="text-align: center; padding: 20px;">
             <h1 style="color: #0078d4; font-size: 36px; font-weight: bold;">
-                🏥 HealthIQ AI
+                🏥 HealthIQ AI - A Vertical AI Agent System
             </h1>
             <p style="color: #555; font-size: 16px;">
                 Your AI-powered medical assistant for accurate, evidence-based healthcare guidance.
@@ -137,15 +137,10 @@ class MedicalChatbotUI:
         with st.sidebar:
             st.markdown("""
             <div style="text-align: center;">
-                <h3 style="color: #0078d4;">Model Information</h3>
-                <p style="color: #555;">Using model: <strong>{}</strong></p>
+                <h3 style="color: #0078d4;">Vertical Agentic System</h3>
+                <p style="color: #555;">Specialized Medical Deep Answering System. <strong>{}</strong></p>
             </div>
-            """.format(self.settings['model']['llm']['name']), unsafe_allow_html=True)
-
-            if st.button("Reset Model", key="reset_model"):
-                if "llm_manager" in st.session_state:
-                    st.session_state.llm_manager.reset_model()
-                    st.success("Model reset successfully!")
+            """.format("On Private Knowledge Base"), unsafe_allow_html=True)
 
             st.markdown("---")
 
