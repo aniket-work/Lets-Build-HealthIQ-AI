@@ -1,4 +1,5 @@
 # chain.py
+import numpy as np
 from langchain.schema.runnable import RunnablePassthrough
 from langchain.schema.output_parser import StrOutputParser
 from langchain.prompts import ChatPromptTemplate
