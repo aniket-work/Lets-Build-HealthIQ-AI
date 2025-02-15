@@ -1,7 +1,5 @@
 # Let's Build HealthIQ AI
 
-# My Building Of Trading Order Management System Using AI Agents
-
 Practical Guide : Automating Business Transactions with AI-Powered Workflows
 
 ## TL;DR
