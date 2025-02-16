@@ -6,7 +6,7 @@ Transforming Healthcare Intelligence: Building a Professional Medical AI Assista
 
 A practical implementation of an AI-powered B2B order management system using LangChain and LLM, demonstrating automated order processing, inventory management, and real-time communication between trading partners.
 
-Full Article : [https://medium.com/@learn-simplified/Lets-Build-HealthIQ-AI-7472c6c1fe73
+Full Article : [https://medium.com/@learn-simplified/lets-build-healthiq-ai-a-vertical-ai-agent-system-72c40a4560ad
 
 
 ## Tech stack
@@ -15,7 +15,7 @@ Full Article : [https://medium.com/@learn-simplified/Lets-Build-HealthIQ-AI-7472
 
 
 ## Introduction
-In today’s fast-paced business environment, efficient order management is crucial for B2B operations. GlobalTrade Nexus AI showcases how artificial intelligence can streamline complex business transactions, reduce errors, and enhance communication between trading partners.
+Picture walking into a doctor’s office where AI understands medical knowledge as thoroughly as a seasoned practitioner. That’s exactly what inspired building HealthIQ AI. This isn’t just another chatbot — it’s a specialized medical assistant that combines document understanding, vector search, and natural language processing to provide reliable healthcare guidance.
 
 ## Architecture
 
@@ -24,28 +24,11 @@ In today’s fast-paced business environment, efficient order management is cruc
 
 
 ## What’s This Article About?
-This article presents a comprehensive B2B trading platform that leverages AI to automate order processing workflows. The system handles everything from order placement to fulfillment, featuring:
-
-- Real-time inventory verification
-- Automated shipping cost calculations
-- Instant order validation
-- Secure transaction processing
-- Smart order cancellation capabilities
-- State management across the entire order lifecycle
-
-The platform demonstrates how modern AI technologies can be integrated into traditional business processes to create a seamless, efficient trading environment.
+This article walks through building a professional medical AI system from scratch. Starting with document processing, moving through vector embeddings, and culminating in an intuitive chat interface, each component serves a specific purpose. The system processes medical PDFs, creates searchable vector representations, and generates contextual responses using language models. What makes it special is the visual exploration of medical knowledge through an interactive 3D interface, helping users understand relationships between different medical concepts.
 
 
 ## Why Read It?
-As businesses increasingly embrace digital transformation, AI-powered solutions are becoming essential for maintaining competitive advantage. This article provides:
-
-- A practical example of AI implementation in B2B commerce
-- Insights into modern system architecture for business applications
-- Real-world application of language models in business logic
-- Demonstration of secure and scalable state management
-- Blueprint for building similar AI-enhanced business systems
-
-Through our fictional companies’ implementation, readers can understand how AI can transform their business operations and prepare for the future of B2B commerce.
+As businesses race to integrate AI, healthcare stands at the forefront of potential transformation. This article provides a practical blueprint for implementing a vertical AI solution in the medical domain. While HealthIQ AI serves as our example, the architecture and techniques demonstrated here apply to any industry-specific AI implementation. The modular design shows how to combine document processing, vector search, and language models into a production-ready system that could transform how organizations handle specialized knowledge.
 
 
 # Tutorial: Let's Build HealthIQ AI - A Vertical AI Agent System
