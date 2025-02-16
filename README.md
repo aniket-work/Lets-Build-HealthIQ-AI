@@ -19,7 +19,7 @@ In today’s fast-paced business environment, efficient order management is cruc
 
 ## Architecture
 
-![Design Diagram](design_docs/design.jpg)
+![Design Diagram](design_docs/design.png)
 
 
 
