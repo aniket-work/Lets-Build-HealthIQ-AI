@@ -1,6 +1,6 @@
-# Let's Build HealthIQ AI
+# Let's Build HealthIQ AI - A Vertical AI Agent System
 
-Practical Guide : Automating Business Transactions with AI-Powered Workflows
+Transforming Healthcare Intelligence: Building a Professional Medical AI Assistant from Ground Up
 
 ## TL;DR
 
@@ -48,7 +48,7 @@ As businesses increasingly embrace digital transformation, AI-powered solutions 
 Through our fictional companies’ implementation, readers can understand how AI can transform their business operations and prepare for the future of B2B commerce.
 
 
-# Tutorial: My Building Of Trading Order Management System Using AI Agents
+# Tutorial: Let's Build HealthIQ AI - A Vertical AI Agent System
 
 ## Prerequisites
 - Python installed on your system.
@@ -78,7 +78,7 @@ Through our fictional companies’ implementation, readers can understand how AI
 
 **Install Project Dependencies:**
 
-Follow these steps to set up and run the  "My Building Of Trading Order Management System Using AI Agents"
+Follow these steps to set up and run the  "Let's Build HealthIQ AI - A Vertical AI Agent System"
 
 1. Navigate to your project directory:
    ```
@@ -93,7 +93,7 @@ Follow these steps to set up and run the  "My Building Of Trading Order Manageme
    This command installs all the necessary Python packages listed in the requirements.txt file.
 
 
-## Run - Hands-On Guide: My Building Of Trading Order Management System Using AI Agents
+## Run - Hands-On Guide: Let's Build HealthIQ AI - A Vertical AI Agent System
 
    ```bash 
      
